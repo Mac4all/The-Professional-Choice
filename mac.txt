@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Branches of Civil Engineering</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+/* NAV */
+nav {
+    position: sticky;
+    top: 0;
+    background: #1a252f;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* FOOTER */
+footer {
+    background: #1a252f;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Branches of Civil Engineering</h1>
+        <p>Explore the major fields shaping our world</p>
+    </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#structural">Structural</a>
+    <a href="#geotechnical">Geotechnical</a>
+    <a href="#transportation">Transportation</a>
+    <a href="#water">Water</a>
+    <a href="#construction">Construction</a>
+    <a href="#references">References</a>
+    <a href="#author">Author</a>
+</nav>
+
+<!-- STRUCTURAL -->
+<div class="section" id="structural" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625');">
+<div class="overlay">
+<h2>Structural Engineering</h2>
+<p>
+Structural engineering focuses on the design, analysis, and construction of structures such as buildings, bridges, towers, and dams. Engineers ensure that structures can withstand loads such as weight, wind, and earthquakes. They apply principles of physics and mathematics to guarantee safety, stability, and durability.
+</p>
+</div>
+</div>
+
+<!-- GEOTECHNICAL -->
+<div class="section" id="geotechnical" style="background-image:url('https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc');">
+<div class="overlay">
+<h2>Geotechnical Engineering</h2>
+<p>
+Geotechnical engineering deals with the behavior of earth materials like soil and rock. Engineers analyze soil properties to design foundations, retaining walls, and slopes. This field is essential in preventing structural failures such as landslides and foundation collapse.
+</p>
+</div>
+</div>
+
+<!-- TRANSPORTATION -->
+<div class="section" id="transportation" style="background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');">
+<div class="overlay">
+<h2>Transportation Engineering</h2>
+<p>
+Transportation engineering focuses on the planning, design, and operation of transportation systems such as roads, railways, airports, and traffic management systems. The goal is to ensure safe, efficient, and convenient movement of people and goods.
+</p>
+</div>
+</div>
+
+<!-- WATER -->
+<div class="section" id="water" style="background-image:url('https://images.unsplash.com/photo-1505761671935-60b3a7427bad');">
+<div class="overlay">
+<h2>Water Resources Engineering</h2>
+<p>
+Water resources engineering involves the management and distribution of water. It includes designing systems for water supply, drainage, irrigation, flood control, and dams. Engineers ensure sustainable use and protection of water resources.
+</p>
+</div>
+</div>
+
+<!-- CONSTRUCTION -->
+<div class="section" id="construction" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd');">
+<div class="overlay">
+<h2>Construction Engineering</h2>
+<p>
+Construction engineering focuses on planning, managing, and executing construction projects. Engineers oversee materials, labor, cost, safety, and timelines to ensure successful project completion.
+</p>
+</div>
+</div>
+
+<!-- REFERENCES -->
+<div class="section" id="references" style="background:#111;">
+<div class="overlay">
+<h2>References</h2>
+<p>
+1. Encyclopaedia Britannica – Civil Engineering <br>
+https://www.britannica.com/technology/civil-engineering <br><br>
+
+2. American Society of Civil Engineers (ASCE) <br>
+https://www.asce.org <br><br>
+
+3. Civil Engineering Body of Knowledge <br>
+https://www.asce.org/career-growth/civil-engineering-body-of-knowledge <br><br>
+
+4. Engineering Toolbox <br>
+https://www.engineeringtoolbox.com
+</p>
+</div>
+</div>
+
+<!-- AUTHOR -->
+<div class="section" id="author" style="background-image:url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');">
+<div class="overlay">
+<h2>About the Author</h2>
+
+<p style="text-align:center;">
+<strong>Name:</strong> MARQUIN A. AMILHUSSIN<br><br>
+
+I am a Civil Engineering student who created this website as part of an academic project. 
+This site aims to provide basic knowledge about the different branches of civil engineering, 
+including their roles and importance in society. 
+
+Through this project, I was able to improve my understanding of engineering concepts and 
+develop my skills in web design and presentation.
+</p>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Civil Engineering Website</p>
+</footer>
+
+</body>
+</html>
